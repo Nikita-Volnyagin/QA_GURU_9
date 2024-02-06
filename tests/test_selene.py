@@ -2,7 +2,7 @@ from selene import browser, by, be
 from selene.support.shared.jquery_style import s
 
 
-def test_classic_selene(open_browser):
+def test_classic_selene():
     browser.open("https://github.com")
 
     s(".header-search-button").click()

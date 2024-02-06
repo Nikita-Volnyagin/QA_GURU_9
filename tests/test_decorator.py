@@ -9,7 +9,7 @@ from selene.support.shared.jquery_style import s
 @allure.label("owner", "Nikita-Volnyagin")
 @allure.feature("Issues")
 @allure.story("Поиск в Issues")
-def test_with_labels(open_browser):
+def test_with_labels():
     open_page()
     search_repo()
     go_to_repo()
